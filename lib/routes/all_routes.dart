@@ -10,7 +10,7 @@ class AppRoutes {
 
   static Map<String, Widget Function(BuildContext)> routes = {
     // splashscreen: (context) => SplashScreen(),
-    homepage: (context) => const Homepage(),
+    homepage: (context) => const HomePage(),
     detailpage: (context) => const DetailPage(),
   };
 }
